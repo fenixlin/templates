@@ -1,2 +1,1 @@
-# templates
-templates for various programming tasks
+templates for various progamming tasks
