@@ -18,7 +18,7 @@
 
 using namespace std;
 
-#define PB cout << "Reached!" << endl;
+#define PB() cout << "Reached!" << endl;
 #define PR(x) cout << #x << " = " << x << endl
 #define PR_CON(x) {cout << #x << " = "; for(auto i: x) cout << i << ' '; cout << endl;}
 #define PR_CON2(x) {cout << #x << " = "; for(auto xx: x) PR_CON(xx);}
@@ -36,15 +36,21 @@ struct TreeNode {
 }
 
 class Solution {
+private:
+
 public:
+    int read_data() {
+        PB();
+        return 0; // finish reading
+    }
+
     void solve() {
     }
 };
 
-// Author: Fenix Lin
-
 int main() {
-    Solution sol;
-    sol.solve();
+    Solution solver;
+    solver.read_data();
+    solver.solve();
     return 0;
 }

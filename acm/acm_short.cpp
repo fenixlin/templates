@@ -18,7 +18,7 @@
 
 using namespace std;
 
-#define PB cout << "Reached!" << endl;
+#define PB() cout << "Reached!" << endl;
 #define PR(x) cout << #x << " = " << x << endl
 #define PR_CON(x) {cout << #x << " = "; for(auto i: x) cout << i << ' '; cout << endl;}
 #define PR_CON2(x) {cout << #x << " = "; for(auto xx: x) PR_CON(xx);}
@@ -30,6 +30,22 @@ using namespace std;
 
 // Author: Fenix Lin
 
+class Solution {
+private:
+
+public:
+    int read_data() {
+        PB();
+        return 0; // finish reading
+    }
+
+    void solve() {
+    }
+};
+
 int main() {
+    Solution solver;
+    solver.read_data();
+    solver.solve();
     return 0;
 }
