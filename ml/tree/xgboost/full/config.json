@@ -1,0 +1,16 @@
+{
+    "train_source": "./input/train.csv",
+    "test_source": "./input/test.csv",
+    "train_file": "./cache/train_main.csv",
+    "test_file": "./cache/test_main.csv",
+    "index_col": "id",
+    "target_col": "loss",
+    "model": "xgbr",
+    "cv_folds": 10,
+    "validation_ratio": 0.3,
+    "shuffle_data": true,
+    "stratified_valid": false,
+    "random_state": 2016,
+    "hyperopt_num": -1,
+    "wrap_data": true
+}
